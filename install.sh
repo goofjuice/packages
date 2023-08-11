@@ -4,15 +4,15 @@
 
 #Microcode
 sudo pacman -S --noconfirm --needed amd-ucode
-sudo pacman -S --noconfirm --needed intel-ucode
+#sudo pacman -S --noconfirm --needed intel-ucode
 
 #Intel Drivers
-sudo pacman -S --noconfirm --needed vulkan-intel 
-sudo pacman -S --noconfirm --needed vulkan-icd-loader 
-sudo pacman -S --noconfirm --needed lib32-vulkan-icd-loader
-sudo pacman -S --noconfirm --needed lib32-vulkan-intel
-sudo pacman -S --noconfirm --needed mesa
-sudo pacman -S --noconfirm --needed lib32-mesa
+#sudo pacman -S --noconfirm --needed vulkan-intel 
+#sudo pacman -S --noconfirm --needed vulkan-icd-loader 
+#sudo pacman -S --noconfirm --needed lib32-vulkan-icd-loader
+#sudo pacman -S --noconfirm --needed lib32-vulkan-intel
+#sudo pacman -S --noconfirm --needed mesa
+#sudo pacman -S --noconfirm --needed lib32-mesa
 
 #AMD Drivers
 sudo pacman -S --noconfirm --needed mesa
@@ -23,31 +23,31 @@ sudo pacman -S --noconfirm --needed vulkan-icd-loader
 sudo pacman -S --noconfirm --needed lib32-vulkan-icd-loader
 
 #Nvidia GPU Drivers
-sudo pacman -S --noconfirm --needed nvidia-lts
-sudo pacman -S --noconfirm --needed nvidia-cg-toolkit
-sudo pacman -S --noconfirm --needed nvidia-settings
-sudo pacman -S --noconfirm --needed nvidia-utils
-sudo pacman -S --noconfirm --needed nvidia-dkms
-sudo pacman -S --noconfirm --needed lib32-nvidia-cg-toolkit
-sudo pacman -S --noconfirm --needed lib32-nvidia-utils
-sudo pacman -S --noconfirm --needed lib32-opencl-nvidia
-sudo pacman -S --noconfirm --needed opencl-nvidia
-sudo pacman -S --noconfirm --needed cuda
-sudo pacman -S --noconfirm --needed ffnvcodec-headers
-sudo pacman -S --noconfirm --needed lib32-libvdpau
-sudo pacman -S --noconfirm --needed libxnvctrl
-sudo pacman -S --noconfirm --needed pycuda-headers
-sudo pacman -S --noconfirm --needed python-pycuda
-sudo pacman -S --noconfirm --needed vulkan-icd-loader 
-sudo pacman -S --noconfirm --needed lib32-vulkan-icd-loader
-sudo pacman -R --noconfirm xf86-video-nouveau
+#sudo pacman -S --noconfirm --needed nvidia-lts
+#sudo pacman -S --noconfirm --needed nvidia-cg-toolkit
+#sudo pacman -S --noconfirm --needed nvidia-settings
+#sudo pacman -S --noconfirm --needed nvidia-utils
+#sudo pacman -S --noconfirm --needed nvidia-dkms
+#sudo pacman -S --noconfirm --needed lib32-nvidia-cg-toolkit
+#sudo pacman -S --noconfirm --needed lib32-nvidia-utils
+#sudo pacman -S --noconfirm --needed lib32-opencl-nvidia
+#sudo pacman -S --noconfirm --needed opencl-nvidia
+#sudo pacman -S --noconfirm --needed cuda
+#sudo pacman -S --noconfirm --needed ffnvcodec-headers
+#sudo pacman -S --noconfirm --needed lib32-libvdpau
+#sudo pacman -S --noconfirm --needed libxnvctrl
+#sudo pacman -S --noconfirm --needed pycuda-headers
+#sudo pacman -S --noconfirm --needed python-pycuda
+#sudo pacman -S --noconfirm --needed vulkan-icd-loader 
+#sudo pacman -S --noconfirm --needed lib32-vulkan-icd-loader
+#sudo pacman -R --noconfirm xf86-video-nouveau
 
 #AMD GPU Drivers
 sudo pacman -S --noconfirm --needed amdgpu
 sudo pacman -S --noconfirm --needed radeon
 
 #Other Drivers
-sudo pacman 0S --noconfirm --needed linux-headers
+sudo pacman -S --noconfirm --needed linux-headers
 
 
 #Display Server
